@@ -1,0 +1,45 @@
+@import './base.css';
+
+.main {
+  margin-left: var(--sidebar-width);
+}
+
+@media only screen and (max-width: 1000px) {
+  .main {
+    margin-left: auto;
+  }
+}
+
+.swal2-confirm {
+  background-color: var(--color-primary) !important;
+  color: white !important;
+}
+
+.swal2-confirm:hover,
+.swal2-confirm:focus {
+  background-color: var(--color-primary) !important;
+}
+
+.swal2-confirm {
+  border-radius: 5px !important;
+  font-size: 16px !important;
+}
+
+.swal-fullscreen {
+  width: 100vw !important;
+  height: 100vh !important;
+  top: 0;
+  left: 0;
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999999999999999999999;
+  border-radius: 0 !important; /* Remove border radius for fullscreen */
+}
+
+.swal2-popup {
+  padding: 0 !important; /* Adjust padding if necessary */
+}
