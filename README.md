@@ -1,4 +1,6 @@
-# frontend
+# Cloud Frontend
+
+![#Screenshot](https://raw.githubusercontent.com/Kuduxaaa/cloud-frontend/main/screenshot.png)
 
 This template should help get you started developing with Vue 3 in Vite.
 
