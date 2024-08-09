@@ -104,7 +104,7 @@ export default {
 
         {
           id: 4,
-          name: 'CSG_logo.svg',
+          name: 'NEW_logo.svg',
           size: '1.2 MB',
           date: '2022-02-01'
         },
